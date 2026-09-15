@@ -49,3 +49,41 @@ git push -u origin main : Mengunggah perubahan dari repositori lokal ke GitHub.
 
 git pull : Menarik dan mengunduh pembaruan terbaru dari GitHub ke repositori lokal.
 
+MARKDOWN (.md)
+
+Markdown adalah bahasa penanda (markup) ringan yang digunakan untuk memformat teks menggunakan simbol sederhana. Dalam pengembangan perangkat lunak, Markdown sering digunakan untuk menulis dokumentasi, seperti file README.md.
+
+Sintaks Penulisan Markdown:
+
+Heading (Judul):
+
+Judul Utama (H1)
+
+Sub Judul (H2)
+
+Sub Judul (H3)
+
+Format Teks:
+Teks tebal (menggunakan dua tanda bintang)
+Teks miring (menggunakan satu tanda bintang)
+
+Daftar (List):
+
+Item tidak berurutan (menggunakan tanda hubung)
+
+Item berurutan (menggunakan angka dan titik)
+
+Tautan (Link):
+[Teks yang ditampilkan](URL atau link tujuan)
+
+Gambar:
+![Teks alternatif gambar](URL atau lokasi gambar)
+
+Kode (Code):
+kode singkat (menggunakan backtick/kutip terbalik tunggal)
+
+Blok kode multi-baris
+(menggunakan tiga backtick)
+
+
+======================================================
