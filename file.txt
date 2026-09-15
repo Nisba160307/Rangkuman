@@ -35,3 +35,17 @@ git checkout  : Berpindah ke cabang yang dipilih.
 
 git merge  : Menggabungkan kode dari cabang lain ke cabang aktif saat ini.
 
+GITHUB
+
+GitHub adalah layanan hosting berbasis cloud (internet) untuk menyimpan dan mengelola repositori Git. GitHub digunakan untuk mencadangkan kode dan berkolaborasi dengan tim.
+
+Perintah Integrasi Git dan GitHub:
+
+git remote add origin  : Menghubungkan repositori lokal di komputer dengan repositori jarak jauh (remote) di GitHub.
+
+git clone  : Mengunduh seluruh repositori dari GitHub ke komputer lokal.
+
+git push -u origin main : Mengunggah perubahan dari repositori lokal ke GitHub.
+
+git pull : Menarik dan mengunduh pembaruan terbaru dari GitHub ke repositori lokal.
+
