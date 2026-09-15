@@ -1,0 +1,89 @@
+======================================================
+RANGKUMAN MATERI: GIT, GITHUB, DAN MARKDOWN
+
+GIT
+
+Git adalah sistem pengontrol versi (version control system) yang digunakan untuk melacak perubahan pada file proyek perangkat lunak. Git berjalan secara lokal di komputer pengguna.
+
+Konsep Dasar Git:
+
+Working Directory: Folder tempat Anda sedang menulis dan mengedit kode.
+
+Staging Area: Area sementara untuk memilih file mana saja yang perubahannya akan disimpan.
+
+Local Repository: Database lokal di komputer yang menyimpan riwayat permanen dari kode yang sudah disimpan (commit).
+
+Perintah Dasar Git:
+
+git init : Menginisialisasi/membuat repositori Git baru di dalam folder proyek.
+
+git add  : Memasukkan file tertentu ke dalam staging area.
+
+git add . : Memasukkan semua file yang berubah ke dalam staging area.
+
+git commit -m "pesan" : Menyimpan perubahan dari staging area ke local repository dengan pesan deskripsi.
+
+git status : Melihat status file yang berubah atau belum dilacak oleh Git.
+
+git log : Melihat riwayat commit yang telah dilakukan.
+
+Manajemen Cabang (Branching):
+
+git branch  : Membuat cabang (branch) baru.
+
+git checkout  : Berpindah ke cabang yang dipilih.
+
+git merge  : Menggabungkan kode dari cabang lain ke cabang aktif saat ini.
+
+GITHUB
+
+GitHub adalah layanan hosting berbasis cloud (internet) untuk menyimpan dan mengelola repositori Git. GitHub digunakan untuk mencadangkan kode dan berkolaborasi dengan tim.
+
+Perintah Integrasi Git dan GitHub:
+
+git remote add origin  : Menghubungkan repositori lokal di komputer dengan repositori jarak jauh (remote) di GitHub.
+
+git clone  : Mengunduh seluruh repositori dari GitHub ke komputer lokal.
+
+git push -u origin main : Mengunggah perubahan dari repositori lokal ke GitHub.
+
+git pull : Menarik dan mengunduh pembaruan terbaru dari GitHub ke repositori lokal.
+
+MARKDOWN (.md)
+
+Markdown adalah bahasa penanda (markup) ringan yang digunakan untuk memformat teks menggunakan simbol sederhana. Dalam pengembangan perangkat lunak, Markdown sering digunakan untuk menulis dokumentasi, seperti file README.md.
+
+Sintaks Penulisan Markdown:
+
+Heading (Judul):
+
+Judul Utama (H1)
+
+Sub Judul (H2)
+
+Sub Judul (H3)
+
+Format Teks:
+Teks tebal (menggunakan dua tanda bintang)
+Teks miring (menggunakan satu tanda bintang)
+
+Daftar (List):
+
+Item tidak berurutan (menggunakan tanda hubung)
+
+Item berurutan (menggunakan angka dan titik)
+
+Tautan (Link):
+[Teks yang ditampilkan](URL atau link tujuan)
+
+Gambar:
+![Teks alternatif gambar](URL atau lokasi gambar)
+
+Kode (Code):
+kode singkat (menggunakan backtick/kutip terbalik tunggal)
+
+Blok kode multi-baris
+(menggunakan tiga backtick)
+
+
+======================================================
