@@ -1,0 +1,28 @@
+======================================================
+RANGKUMAN MATERI: GIT, GITHUB, DAN MARKDOWN
+
+GIT
+
+Git adalah sistem pengontrol versi (version control system) yang digunakan untuk melacak perubahan pada file proyek perangkat lunak. Git berjalan secara lokal di komputer pengguna.
+
+Konsep Dasar Git:
+
+Working Directory: Folder tempat Anda sedang menulis dan mengedit kode.
+
+Staging Area: Area sementara untuk memilih file mana saja yang perubahannya akan disimpan.
+
+Local Repository: Database lokal di komputer yang menyimpan riwayat permanen dari kode yang sudah disimpan (commit).
+
+Perintah Dasar Git:
+
+git init : Menginisialisasi/membuat repositori Git baru di dalam folder proyek.
+
+git add  : Memasukkan file tertentu ke dalam staging area.
+
+git add . : Memasukkan semua file yang berubah ke dalam staging area.
+
+git commit -m "pesan" : Menyimpan perubahan dari staging area ke local repository dengan pesan deskripsi.
+
+git status : Melihat status file yang berubah atau belum dilacak oleh Git.
+
+git log : Melihat riwayat commit yang telah dilakukan.
