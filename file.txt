@@ -26,3 +26,12 @@ git commit -m "pesan" : Menyimpan perubahan dari staging area ke local repositor
 git status : Melihat status file yang berubah atau belum dilacak oleh Git.
 
 git log : Melihat riwayat commit yang telah dilakukan.
+
+Manajemen Cabang (Branching):
+
+git branch  : Membuat cabang (branch) baru.
+
+git checkout  : Berpindah ke cabang yang dipilih.
+
+git merge  : Menggabungkan kode dari cabang lain ke cabang aktif saat ini.
+
